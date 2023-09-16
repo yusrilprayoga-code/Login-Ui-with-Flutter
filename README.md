@@ -1,4 +1,6 @@
-# tugaspam
+# Praktikum Mobile
+## Nama : MOH YUSRIL PRAYOGA
+## Nim  : 124210006
 
 A new Flutter project.
 
