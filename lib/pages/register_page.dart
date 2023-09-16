@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tugaspam/pages/home_page.dart';
 
 class MyRegisterPage extends StatefulWidget {
   const MyRegisterPage({super.key});
@@ -141,7 +140,7 @@ class _MyRegisterPageState extends State<MyRegisterPage> {
 
                   //sign in button
                   SizedBox(
-                    height: 100,
+                    height: 70,
                   ),
                   Container(
                     width: double.infinity,

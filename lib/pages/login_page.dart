@@ -28,7 +28,7 @@ class _MyLoginPageState extends State<MyLoginPage> {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 50,
+                    height: 20,
                   ),
                   Icon(
                     Icons.auto_awesome_mosaic,
@@ -36,7 +36,7 @@ class _MyLoginPageState extends State<MyLoginPage> {
                     size: 100,
                   ),
                   SizedBox(
-                    height: 50,
+                    height: 30,
                   ),
 
                   //Welcome Back
@@ -54,7 +54,7 @@ class _MyLoginPageState extends State<MyLoginPage> {
                   ),
 
                   SizedBox(
-                    height: 50,
+                    height: 20,
                   ),
 
                   //Email Field
@@ -159,7 +159,7 @@ class _MyLoginPageState extends State<MyLoginPage> {
 
                   //sign in button
                   SizedBox(
-                    height: 50,
+                    height: 35,
                   ),
                   Container(
                     width: double.infinity,
@@ -210,7 +210,7 @@ class _MyLoginPageState extends State<MyLoginPage> {
                   ),
 
                   const SizedBox(
-                    height: 20,
+                    height: 15,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -243,7 +243,7 @@ class _MyLoginPageState extends State<MyLoginPage> {
                   ),
 
                   const SizedBox(
-                    height: 50,
+                    height: 35,
                   ),
                   Row(
                     children: [
@@ -271,7 +271,7 @@ class _MyLoginPageState extends State<MyLoginPage> {
 
                   //google and facebook sign in
                   SizedBox(
-                    height: 50,
+                    height: 35,
                   ),
                   SignInButtonBuilder(
                     text: 'Get going with Email',
@@ -284,7 +284,7 @@ class _MyLoginPageState extends State<MyLoginPage> {
                     height: 45,
                   ),
                   SizedBox(
-                    height: 25,
+                    height: 15,
                   ),
                   SignInButton(
                     Buttons.google,
