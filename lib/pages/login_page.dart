@@ -279,7 +279,7 @@ class _MyLoginPageState extends State<MyLoginPage> {
                     onPressed: () {
                       _showButtonPressDialog('Facebook');
                     },
-                    backgroundColor: Color.fromARGB(255, 12, 43, 219)!,
+                    backgroundColor: Color.fromARGB(255, 12, 43, 219),
                     width: 220.0,
                     height: 45,
                   ),
