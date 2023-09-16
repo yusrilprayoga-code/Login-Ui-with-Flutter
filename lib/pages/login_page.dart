@@ -274,12 +274,12 @@ class _MyLoginPageState extends State<MyLoginPage> {
                     height: 35,
                   ),
                   SignInButtonBuilder(
-                    text: 'Get going with Email',
-                    icon: Icons.email,
+                    text: 'Get going with Facebook',
+                    icon: Icons.facebook,
                     onPressed: () {
-                      _showButtonPressDialog('Email');
+                      _showButtonPressDialog('Facebook');
                     },
-                    backgroundColor: Colors.blueGrey[700]!,
+                    backgroundColor: Color.fromARGB(255, 12, 43, 219)!,
                     width: 220.0,
                     height: 45,
                   ),
